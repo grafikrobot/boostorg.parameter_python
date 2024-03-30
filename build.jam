@@ -7,10 +7,10 @@ import project ;
 
 project /boost/parameter_python
     : common-requirements
-        <source>/boost/mpl//boost_mpl
-        <source>/boost/parameter//boost_parameter
-        <source>/boost/preprocessor//boost_preprocessor
-        <source>/boost/python//boost_python
+        <library>/boost/mpl//boost_mpl
+        <library>/boost/parameter//boost_parameter
+        <library>/boost/preprocessor//boost_preprocessor
+        <library>/boost/python//boost_python
         <include>include
     ;
 
